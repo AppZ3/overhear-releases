@@ -1,6 +1,6 @@
 {
   "config": {
-    "version": 3,
+    "version": 4,
     "defaultModel": "fast",
     "defaultPhases": 2,
     "minVersionCode": 0,
@@ -36,12 +36,26 @@
     ]
   },
   "release": {
-    "versionCode": 2,
-    "versionName": "0.1.1",
-    "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.1/overhear-arm64-v8a.apk",
-    "sha256": "ad743f87bf8f85783124559726d980a14d8bd97042735a0ef2083b603b096f04",
-    "sizeBytes": 35603871,
-    "notes": "Test of the live update channel.",
-    "mandatory": false
+    "versionCode": 3,
+    "versionName": "0.1.2",
+    "notes": "Per-architecture update artifacts.",
+    "mandatory": false,
+    "artifacts": {
+      "arm64-v8a": {
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.2/overhear-arm64-v8a.apk",
+        "sha256": "a6ea0147ef21806ce1302c2ef020c2973f903c893691a1c60ea2985dcf920c83",
+        "sizeBytes": 35603871
+      },
+      "x86_64": {
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.2/overhear-x86_64.apk",
+        "sha256": "cdeb09c6d78d4e4181cdb16e885655e6677d9ae279f61a8db22a6fd9964a2a53",
+        "sizeBytes": 37817459
+      },
+      "universal": {
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.2/overhear-universal.apk",
+        "sha256": "a965be9fabf9125db85920b0d74bfe95df80c5e148f4a2f82323cc8e353a2fb6",
+        "sizeBytes": 61345202
+      }
+    }
   }
 }
