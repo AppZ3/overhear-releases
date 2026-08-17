@@ -1,6 +1,6 @@
 {
   "config": {
-    "version": 1,
+    "version": 2,
     "defaultModel": "fast",
     "defaultPhases": 2,
     "minVersionCode": 0,
@@ -35,5 +35,13 @@
       }
     ]
   },
-  "release": null
+  "release": {
+    "versionCode": 1,
+    "versionName": "0.1.0",
+    "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.0/overhear-arm64-v8a.apk",
+    "sha256": "cd23977aeef0b70b85f1b28d950b48c6b27d0bda54a0bfa95b74c45fc5fd3ed0",
+    "sizeBytes": 35603871,
+    "notes": "First public release. Live captions over anything your phone plays or hears.",
+    "mandatory": false
+  }
 }
