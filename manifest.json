@@ -1,0 +1,39 @@
+{
+  "config": {
+    "version": 1,
+    "defaultModel": "fast",
+    "defaultPhases": 2,
+    "minVersionCode": 0,
+    "notice": null,
+    "noticeId": 0,
+    "models": [
+      {
+        "key": "fast",
+        "label": "Fast",
+        "note": "Smallest and quickest. Best on a phone.",
+        "repo": "csukuangfj/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17",
+        "approxMb": 42,
+        "files": [
+          "encoder-epoch-99-avg-1.int8.onnx",
+          "decoder-epoch-99-avg-1.int8.onnx",
+          "joiner-epoch-99-avg-1.int8.onnx",
+          "tokens.txt"
+        ]
+      },
+      {
+        "key": "balanced",
+        "label": "More accurate",
+        "note": "Better with difficult audio. Uses more battery.",
+        "repo": "csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-26",
+        "approxMb": 69,
+        "files": [
+          "encoder-epoch-99-avg-1-chunk-16-left-64.int8.onnx",
+          "decoder-epoch-99-avg-1-chunk-16-left-64.int8.onnx",
+          "joiner-epoch-99-avg-1-chunk-16-left-64.int8.onnx",
+          "tokens.txt"
+        ]
+      }
+    ]
+  },
+  "release": null
+}
