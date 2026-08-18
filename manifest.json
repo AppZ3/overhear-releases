@@ -1,6 +1,6 @@
 {
   "config": {
-    "version": 6,
+    "version": 7,
     "defaultModel": "fast",
     "defaultPhases": 2,
     "minVersionCode": 0,
@@ -36,25 +36,25 @@
     ]
   },
   "release": {
-    "versionCode": 5,
-    "versionName": "0.1.4",
-    "notes": "Tells you when an app is blocking audio capture instead of waiting silently. Corrected caption-timing help.",
+    "versionCode": 6,
+    "versionName": "0.1.5",
+    "notes": "Reports the real reason captioning failed instead of a message that vanishes.",
     "mandatory": false,
     "artifacts": {
       "arm64-v8a": {
-        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.4/overhear-arm64-v8a.apk",
-        "sha256": "248b363237100882d699a625a8aabe1763ad8dc70d487b024af0b1e9fac82386",
-        "sizeBytes": 35604843
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.5/overhear-arm64-v8a.apk",
+        "sha256": "c0ac92ec940027047387f917a6d8d651c9363349b17ef5c9ef223f02cde98c2e",
+        "sizeBytes": 35605263
       },
       "x86_64": {
-        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.4/overhear-x86_64.apk",
-        "sha256": "b786c43c97f3949407c086b521edc42720b7a42638af9522319ccfa88dd2d94b",
-        "sizeBytes": 37818431
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.5/overhear-x86_64.apk",
+        "sha256": "bb6f085bf3dd96adc915088750cf752214047a177f76951a9bd84154c8178cce",
+        "sizeBytes": 37818851
       },
       "universal": {
-        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.4/overhear-universal.apk",
-        "sha256": "6ea878e02296862ea3f80bc080f47c8ef0a7dbb24304afffc56c927752526009",
-        "sizeBytes": 61346174
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.5/overhear-universal.apk",
+        "sha256": "4097a119e86f41f8566d1283f1894bf67b44cc3dc671ebb23beb8ced32b9fbfb",
+        "sizeBytes": 61346594
       }
     }
   }
