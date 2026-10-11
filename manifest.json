@@ -1,6 +1,6 @@
 {
   "config": {
-    "version": 7,
+    "version": 8,
     "defaultModel": "fast",
     "defaultPhases": 2,
     "minVersionCode": 0,
@@ -36,25 +36,25 @@
     ]
   },
   "release": {
-    "versionCode": 6,
-    "versionName": "0.1.5",
-    "notes": "Reports the real reason captioning failed instead of a message that vanishes.",
+    "versionCode": 11,
+    "versionName": "0.2.0",
+    "notes": "Steadier captions, a new default speech model, caption styles, pause, saved transcripts and a clearer first run.",
     "mandatory": false,
     "artifacts": {
       "arm64-v8a": {
-        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.5/overhear-arm64-v8a.apk",
-        "sha256": "c0ac92ec940027047387f917a6d8d651c9363349b17ef5c9ef223f02cde98c2e",
-        "sizeBytes": 35605263
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.2.0/overhear-arm64-v8a.apk",
+        "sha256": "9e2bf59489478727981aa9b1c9edb791b9a45ed902c85ed035c51a6c3893bca6",
+        "sizeBytes": 36603264
       },
       "x86_64": {
-        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.5/overhear-x86_64.apk",
-        "sha256": "bb6f085bf3dd96adc915088750cf752214047a177f76951a9bd84154c8178cce",
-        "sizeBytes": 37818851
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.2.0/overhear-x86_64.apk",
+        "sha256": "82414ac1917afc2787c1556c744d5186c370811ab50434ee3c37f45919b0a453",
+        "sizeBytes": 38833236
       },
       "universal": {
-        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.1.5/overhear-universal.apk",
-        "sha256": "4097a119e86f41f8566d1283f1894bf67b44cc3dc671ebb23beb8ced32b9fbfb",
-        "sizeBytes": 61346594
+        "url": "https://github.com/AppZ3/overhear-releases/releases/download/v0.2.0/overhear-universal.apk",
+        "sha256": "bb25d0c5c002954bd3691ddf0a208052d548e644e7fbeae3ad4f4f574600b853",
+        "sizeBytes": 62360979
       }
     }
   }
